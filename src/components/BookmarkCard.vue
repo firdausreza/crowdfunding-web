@@ -3,7 +3,7 @@
     <img src="../assets/images/logo-mastercraft.svg" class="absolute -top-5" alt="mastercraft-logo" width="50">
     <div id="wrapper" class="mt-8 text-center">
       <h1 class="text-3xl font-bold">Mastercraft Bamboo Monitor Riser</h1>
-      <p class="text-dark-gray">
+      <p class="text-dark-gray mt-4">
         A beautiful & handcrafted monitor stand to reduce neck and eye strain.
       </p>
     </div>
