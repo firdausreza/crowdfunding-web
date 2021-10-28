@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-sm sm:max-w-xl lg:max-w-5xl bg-white p-8 flex flex-col justify-center items-center mx-auto rounded-lg relative border-gray-200 border">
+  <section class="max-w-sm sm:max-w-xl xl:max-w-5xl bg-white p-8 flex flex-col justify-center items-center mx-auto rounded-lg relative border-gray-200 border">
     <img src="../assets/images/logo-mastercraft.svg" class="absolute -top-5" alt="mastercraft-logo" width="50">
     <div id="wrapper" class="mt-8 text-center">
       <h1 class="text-3xl font-bold">Mastercraft Bamboo Monitor Riser</h1>
@@ -7,7 +7,7 @@
         A beautiful & handcrafted monitor stand to reduce neck and eye strain.
       </p>
     </div>
-    <div id="action" class="flex flex-row justify-between mt-8 w-full lg:w-3/4">
+    <div id="action" class="flex flex-row justify-between mt-8 w-full xl:w-3/4">
       <button class="px-12 py-6 bg-dark-cyan rounded-full text-white font-bold">
         Back this project
       </button>

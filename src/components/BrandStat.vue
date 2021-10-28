@@ -1,5 +1,5 @@
 <template>
-  <section class="max-w-sm sm:max-w-xl lg:max-w-5xl bg-white px-8 sm:px-12 py-16 flex flex-col justify-center items-center mx-auto rounded-lg mt-8 border-gray-200 border">
+  <section class="max-w-sm sm:max-w-xl xl:max-w-5xl bg-white px-8 sm:px-12 py-16 flex flex-col justify-center items-center mx-auto rounded-lg mt-8 border-gray-200 border">
     <div id="stat-wrapper" class="w-10/12 flex flex-col sm:flex-row justify-between items-center">
       <div class="flex flex-col justify-center items-center">
         <h1 class="text-3xl font-bold">
