@@ -15,7 +15,7 @@
         to allow notepads, pens, and USB sticks to be stored under the stand.
       </p>
     </div>
-    <ProductCard />
+    <ProductCard v-for="product in products" :product="product" :key="product.id" />
   </section>
 </template>
 
@@ -26,6 +26,39 @@ export default {
   name: "AboutCard",
   components: {
     ProductCard
+  },
+  data () {
+    return {
+      products: []
+    }
+  },
+  mounted() {
+    this.products = [
+      {
+        id: Math.floor(Math.random() * 10000),
+        productName: 'Bamboo Stand',
+        desc: 'You get an ergonomic stand made of natural bamboo. You;ve helped us launch our promotional campaign, and you\'ll be added to a special Backer member list.',
+        pledge: 25,
+        stock: 101,
+        isAvailable: true
+      },
+      {
+        id: Math.floor(Math.random() * 10000),
+        productName: 'Black Edition Stand',
+        desc: 'You get a Black Special Edition computer stand and a personal thank you. You’ll be added to our Backer member list. Shipping is included.',
+        pledge: 75,
+        stock: 64,
+        isAvailable: true
+      },
+      {
+        id: Math.floor(Math.random() * 10000),
+        productName: 'Mahogany Special Edition',
+        desc: 'You get two Special Edition Mahogany stands, a Backer T-Shirt, and a personal thank you. You’ll be added to our Backer member list. Shipping is included.',
+        pledge: 200,
+        stock: 0,
+        isAvailable: false
+      },
+    ]
   }
 }
 </script>
