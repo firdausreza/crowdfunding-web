@@ -8,7 +8,7 @@
       </p>
     </div>
     <div id="action" class="flex flex-row justify-between mt-8 w-full xl:w-3/4">
-      <button class="px-12 py-6 bg-dark-cyan rounded-full text-white font-bold">
+      <button class="px-12 py-6 bg-moderate-cyan rounded-full text-white font-bold">
         Back this project
       </button>
       <div class="flex flex-row items-center relative">

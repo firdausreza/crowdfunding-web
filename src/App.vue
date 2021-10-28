@@ -4,6 +4,7 @@
     <section class="relative -top-32">
       <BookmarkCard />
       <BrandStat />
+      <AboutCard />
     </section>
   </div>
 </template>
@@ -12,13 +13,15 @@
 import Header from "./components/Header";
 import BookmarkCard from "./components/BookmarkCard";
 import BrandStat from "./components/BrandStat";
+import AboutCard from "./components/AboutCard";
 
 export default {
   name: 'App',
   components: {
     Header,
     BookmarkCard,
-    BrandStat
+    BrandStat,
+    AboutCard
   }
 }
 </script>
